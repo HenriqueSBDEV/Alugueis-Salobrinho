@@ -45,7 +45,7 @@ select{
   justify-content: center;
 }
 
-button{
+.button-Search{
   padding: 5px;
   width: 40px;
   height: 40px;
@@ -61,10 +61,17 @@ button:focus{
 }
 
 label{
-  margin: 0px;
+  text-align: center;
+  margin: 5px;
   padding: 0px;
 }
 
+.buscar{
+  background-color: #3EB489;
+  color: #fff;
+  font-weight: bold;
+  font-size: 20px;
+}
 
 #order-label{
   display: flex;
@@ -73,6 +80,5 @@ label{
 }
 
 .input-radio{
-  width: 30px;
-  height: 30px;
+  height: 20px;
 }

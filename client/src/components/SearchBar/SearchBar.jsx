@@ -1,5 +1,5 @@
 import React from "react";
-import "../../styles/SearchBar.module.css";
+import "../../styles/SearchBar/SearchBar.css";
 
 const SearchBar = () =>{
   return(
@@ -23,24 +23,24 @@ const SearchBar = () =>{
       </div>
       <h3>Número de quartos</h3>
       <div className="num-quartos">
-        <button>1</button>
-        <button>2</button>
-        <button>3</button>
-        <button>4+</button>
+        <button className="button-Search">1</button>
+        <button className="button-Search">2</button>
+        <button className="button-Search">3</button>
+        <button className="button-Search">4+</button>
       </div>
       <h3>Ordenar por</h3>
         <div id="order-label">
           <label>
-            <input type="radio" name="sort" id="" className="input-radio"/> Menor Preço
+            <input type="radio" name="sort" id="" className="input-radio"/>Menor Preço
           </label>
           <label>
-            <input type="radio" name="sort" id="" className="input-radio"/> Maior Preço
+            <input type="radio" name="sort" id="" className="input-radio"/>Maior Preço
           </label>
           <label>
-            <input type="radio" name="sort" id="" className="input-radio"/> Mais recentes
+            <input type="radio" name="sort" id="" className="input-radio"/>Mais recentes
           </label>                    
         </div>
-      <input type="button" value="Buscar" />
+      <input type="button" value="Buscar" className="buscar"/>
     </aside>
   );
 }

@@ -1,0 +1,13 @@
+.div-footer{
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  background-color: #1F4E79;
+  height: 67px;
+}
+
+.text-footer{
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+}
