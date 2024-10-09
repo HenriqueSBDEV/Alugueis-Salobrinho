@@ -4,7 +4,7 @@ import "../../styles/SearchBar/SearchBar.css";
 const SearchBar = () =>{
   return(
     <aside>
-      <h2>Filtar</h2>
+      <h2>Filtrar</h2>
       <h3>Localização do imóvel</h3>
       <input type="text" placeholder="Ex. Rua do ouro"></input>
       <h3>Tipo do imóvel</h3>
@@ -31,13 +31,16 @@ const SearchBar = () =>{
       <h3>Ordenar por</h3>
         <div id="order-label">
           <label>
-            <input type="radio" name="sort" id="" className="input-radio"/>Menor Preço
+            <input type="radio" name="sort" id="" className="input-radio"/>
+            <p>Menor Preço</p>
           </label>
           <label>
-            <input type="radio" name="sort" id="" className="input-radio"/>Maior Preço
+            <input type="radio" name="sort" id="" className="input-radio"/>
+            <p>Maior Preço</p>
           </label>
           <label>
-            <input type="radio" name="sort" id="" className="input-radio"/>Mais recentes
+            <input type="radio" name="sort" id="" className="input-radio"/>
+            <p>Mais recentes</p>
           </label>                    
         </div>
       <input type="button" value="Buscar" className="buscar"/>
