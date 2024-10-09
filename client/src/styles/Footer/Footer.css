@@ -3,12 +3,12 @@
   position: fixed;
   bottom: 0;
   background-color: #1F4E79;
-  height: 50px;
+  height: 70px;
 }
 
 .text-footer{
   color: #fff;
   text-align: center;
   font-weight: bold;
-  font-size: 15px;
+  font-size: 20px;
 }

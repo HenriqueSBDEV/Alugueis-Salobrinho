@@ -11,15 +11,15 @@ header {
   justify-content: space-between;
   background-color: #1F4E79;
   width: 100vw;
-  height: 70px;
+  height: 110px;
 }
 
 .title{
-  margin: 10px;
+  margin: 20px;
 }
 
 h1{
-  font-size: 20px;
+  font-size: 30px;
   margin: 0px;
   color: #FFF;
   margin-left: 40px;
@@ -30,13 +30,13 @@ h1{
 }
 
 .header-links{
-  padding: 10px;
-  margin: 5px;
+  padding: 20px;
+  margin: 10px;
 }
 
 a{
   margin-right: 30px;
-  font-size: 15px;
+  font-size: 20px;
   font-weight: bold;
   text-decoration: none;
   color: #FFF;
@@ -52,7 +52,7 @@ button{
   margin-right: 30px;
   padding: 8px;
   color: #fff;
-  font-size: 15px;
+  font-size: 20px;
   font-weight: bold;
   background-color: #3EB489;
   border-radius: 20px;

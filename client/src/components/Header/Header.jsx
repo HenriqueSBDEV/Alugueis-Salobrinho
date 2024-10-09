@@ -11,7 +11,7 @@ const Header = () =>{
         <div className="header-links">
           <a href="">HOME</a>
           <a href="">SOBRE O SALOBRINHO</a>
-          <button>ANUNCIE SEU ALUGUEL</button>
+          <button className="button">ANUNCIE SEU ALUGUEL</button>
         </div>
       </header>
   );

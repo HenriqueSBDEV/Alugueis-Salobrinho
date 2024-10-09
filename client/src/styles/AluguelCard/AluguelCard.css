@@ -1,0 +1,60 @@
+.container-card {
+  display: flex;
+  flex-direction: row; /* Mudei para coluna para alinhar o slider e as informações verticalmente */
+  width: 55%; /* Ajuste a largura conforme necessário */
+  height: 200px;/* A altura deve ser automática para se ajustar ao conteúdo */
+  border: 2px solid #ccc; 
+  margin-top: 60px;
+}
+
+.carrosel-fotos {
+  width: 250px;
+  height: 200px;
+
+}
+
+.img-card {
+  width: 300px; 
+  object-fit: cover; /* Manter a proporção */
+}
+
+.title-card {
+  font-size: 20px;
+  margin-top: 0px;
+  margin-left: 10px; /* Ajustado para um espaço melhor */
+}
+
+.subtitle-card {
+  font-weight: normal;
+  margin-left: 10px; /* Ajustado para um espaço melhor */
+}
+
+.info {
+  display: flex; 
+  flex-direction: column; 
+  justify-content: center;
+  padding: 10px; 
+  width: 100%;
+}
+
+.valor-contato {
+  display: flex;
+  margin-left: 10px; /* Ajustado para um espaço melhor */
+  margin-right: 10px; /* Ajustado para um espaço melhor */
+  justify-content: space-between; 
+}
+
+.valor {
+  font-size: 20px;
+}
+
+.contato {
+  color: #3EB489;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.contato:hover {
+  cursor: pointer;
+  color: #1F4E79;
+}

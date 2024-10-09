@@ -1,22 +1,22 @@
 aside{
+  position: fixed;
   padding: 20px;
   text-align: center;
   width: 25vw;
   border-right: 2px solid black;
-  height: 100vh;
-  position: fixed; 
+  height: 100vh; 
   left: 0;
 }
 
 h2{
-  margin-top: 0px;
+  margin-top: 30px;
 }
 
 h3{
   font-size: 15px;
   font-weight: bold;
   margin: 0px;
-  margin-top: 10px;
+  margin-top: 30px;
   margin-bottom: 5px;
 }
 
@@ -58,8 +58,8 @@ select{
 
 .button-Search{
   padding: 5px;
-  width: 30px;
-  height: 30px;
+  width: 40px;
+  height: 40px;
   border-radius: 10px;
   border: 2px solid black;
   color: black;
@@ -96,8 +96,9 @@ p{
 }
 
 .buscar{
-  padding: 5px;
-  height: 35px;
+  margin-top: 25px;
+  padding: 10px;
+  height: 50px;
   background-color: #3EB489;
   color: #fff;
   font-weight: bold;
