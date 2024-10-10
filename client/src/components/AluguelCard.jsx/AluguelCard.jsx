@@ -1,11 +1,13 @@
-import React from "react";
+import React, { useRef } from "react";
 import "../../styles/AluguelCard/AluguelCard.css";
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick"; 
-import casa from "../../image/casa.jpg"; // Certifique-se de que a imagem esteja correta
+import { FaChevronLeft, FaChevronRight } from 'react-icons/fa'; // Importando os ícones
+import casa from "../../image/casa.jpg";
 
 const AluguelCard = () => {
+  const sliderRef = useRef(null);
 
   const settings = {
     dots: false,
@@ -15,13 +17,22 @@ const AluguelCard = () => {
     slidesToScroll: 1,
     autoplay: false,
     autoplaySpeed: 2000,
-    arrows: true, 
+    arrows: false, // Remover setas padrão
+  };
+
+  // Funções para navegação
+  const next = () => {
+    sliderRef.current.slickNext(); // Avança para a próxima imagem
+  };
+
+  const previous = () => {
+    sliderRef.current.slickPrev(); // Volta para a imagem anterior
   };
 
   return (
     <div className="container-card">
       <div className="carrosel-fotos">
-        <Slider {...settings}>
+        <Slider {...settings} ref={sliderRef}>
           <div>
             <img className="img-card" src={casa} alt="Casa 1" />
           </div>
@@ -32,6 +43,14 @@ const AluguelCard = () => {
             <img className="img-card" src={casa} alt="Casa 3" />
           </div>
         </Slider>
+        <div className="nav-buttons">
+          <button onClick={previous} className="nav-button">
+            <FaChevronLeft /> {/* Ícone para "Anterior" */}
+          </button>
+          <button onClick={next} className="nav-button">
+            <FaChevronRight /> {/* Ícone para "Próximo" */}
+          </button>
+        </div>
       </div>
       <div className="info">
         <h3 className="title-card">Salobrinho - Ilhéus - Bahia</h3>
@@ -41,7 +60,7 @@ const AluguelCard = () => {
           <h3 className="contato">Entrar em contato</h3>
         </div>
       </div>
-    </div>  
+    </div>
   );
 }
 

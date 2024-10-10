@@ -1,19 +1,22 @@
 .container-card {
   display: flex;
-  flex-direction: row; /* Mudei para coluna para alinhar o slider e as informações verticalmente */
+  flex-direction: row; /* Mantido como row para o alinhamento horizontal */
   width: 55%; /* Ajuste a largura conforme necessário */
-  height: 200px;/* A altura deve ser automática para se ajustar ao conteúdo */
+  height: 167px; /* A altura deve ser automática para se ajustar ao conteúdo */
   border: 2px solid #ccc; 
   margin-top: 150px;
+  position: relative; /* Permite posicionamento relativo dos filhos */
 }
 
 .carrosel-fotos {
+  position: relative; /* Necessário para o posicionamento absoluto dos botões */
   width: 250px;
   height: 200px;
 }
 
 .img-card {
-  width: 300px; 
+  width: 100%; /* Altera para 100% para preencher o contêiner */
+  height: 100%; /* Garante que a imagem ocupe a altura do contêiner */
   object-fit: cover; /* Manter a proporção */
 }
 
@@ -56,4 +59,30 @@
 .contato:hover {
   cursor: pointer;
   color: #1F4E79;
+}
+
+/* Estilo para os botões de navegação */
+.nav-buttons {
+  position: absolute; /* Permite o posicionamento dos botões dentro do carrossel */
+  top: 50%; /* Centraliza verticalmente */
+  left: 50%; /* Centraliza horizontalmente */
+  transform: translate(-50%, -50%); /* Move os botões para o centro */
+  display: flex;
+  justify-content: space-between; /* Espalha os botões em lados opostos */
+  width: 100%; /* Faz os botões ocuparem toda a largura */
+  z-index: 10; /* Garante que os botões apareçam acima das imagens */
+}
+
+.nav-button {
+  padding: 10px 15px; /* Ajuste do espaçamento interno dos botões */
+  background-color: rgba(85, 100, 95, 0.8); /* Cor de fundo do botão com transparência */
+  color: white; /* Cor do texto do botão */
+  border: none; /* Remove a borda padrão */
+  border-radius: 5px; /* Bordas arredondadas */
+  cursor: pointer; /* Muda o cursor ao passar o mouse */
+  transition: background-color 0.3s; /* Transição suave para a cor de fundo */
+}
+
+.nav-button:hover {
+  background-color: #1F4E79; /* Cor ao passar o mouse */
 }

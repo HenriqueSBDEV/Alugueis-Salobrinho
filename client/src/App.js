@@ -1,6 +1,7 @@
 import './App.css';
-import Home from './pages/Home';
-import Sobre from './pages/Sobre';
+// import Home from './pages/Home';
+// import Sobre from './pages/Sobre';
+import AppRoutes from './routes/Routes';
 // import Footer from './components/Footer/Footer';
 // import Header from './components/Header/Header';
 // import SearchBar from './components/SearchBar/SearchBar';
@@ -12,7 +13,8 @@ function App() {
   return (
     <div>
       {/* <Home></Home> */}
-      <Sobre></Sobre>
+      <AppRoutes></AppRoutes>
+      {/* <Sobre></Sobre> */}
     </div>
   );
 }

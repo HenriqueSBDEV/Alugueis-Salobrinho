@@ -65,6 +65,7 @@ select{
   border: 2px solid black;
   color: black;
   background-color: #fff;
+  margin-right: 15px;
 }
 
 button:focus{

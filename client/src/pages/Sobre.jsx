@@ -74,7 +74,7 @@ const Sobre = () => {
           ></iframe>
         </section>
       </div>
-      <Footer></Footer>
+      <Footer style={{position:'static'}}></Footer>
     </div>    
   );
 };
