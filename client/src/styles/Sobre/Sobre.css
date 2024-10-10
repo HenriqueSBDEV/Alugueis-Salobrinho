@@ -1,0 +1,16 @@
+.sobre-container {
+  margin-top: 150px;
+  width: 100vw;
+  text-align: center;
+}
+
+.paragrafo {
+  max-width: 70%;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+
+.accordion{
+  margin: 0 auto;
+  width: 50%;
+}

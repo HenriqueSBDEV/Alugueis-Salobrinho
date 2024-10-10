@@ -7,6 +7,8 @@ body, html {
 }
 
 header {
+  position: fixed;
+  top: 0;
   display: flex;
   justify-content: space-between;
   background-color: #1F4E79;
@@ -48,7 +50,7 @@ a:hover{
   transition: color 0.6s ease;
 }
 
-button{
+.button{
   margin-right: 30px;
   padding: 8px;
   color: #fff;
@@ -59,7 +61,7 @@ button{
   border: none;
 }
 
-button:hover{
+.button:hover{
   color: #1F4E79;
   cursor: pointer;
 }
