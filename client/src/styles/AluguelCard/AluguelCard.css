@@ -4,13 +4,12 @@
   width: 55%; /* Ajuste a largura conforme necessário */
   height: 200px;/* A altura deve ser automática para se ajustar ao conteúdo */
   border: 2px solid #ccc; 
-  margin-top: 60px;
+  margin-top: 150px;
 }
 
 .carrosel-fotos {
   width: 250px;
   height: 200px;
-
 }
 
 .img-card {

@@ -1,5 +1,5 @@
 import React from "react";
-import "../../styles/Header/Header.css"
+import  "../../styles/Header/Header.css"
 
 const Header = () =>{
   return(
@@ -9,8 +9,8 @@ const Header = () =>{
           <h1 className="title-down">SALOBRINHO</h1>
         </div>
         <div className="header-links">
-          <a href="">HOME</a>
-          <a href="">SOBRE O SALOBRINHO</a>
+          <a href="#">HOME</a>
+          <a href="#">SOBRE O SALOBRINHO</a>
           <button className="button">ANUNCIE SEU ALUGUEL</button>
         </div>
       </header>
