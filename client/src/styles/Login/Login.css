@@ -1,0 +1,120 @@
+.container-section {
+  margin: 0 auto;
+  padding: 50px;
+  background-color: rgba(31, 78, 121, 0.2);
+  height: 60vh;
+  width: 35vw;
+  margin-top: 3%;
+  border-radius: 30px;
+  box-shadow: 0 0 10px #ccc;
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+}
+
+.container-secundary {
+  width: 75%;
+  border-radius: 30px;
+}
+
+.container-secundary h3 {
+  margin-bottom: 0px;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.container-secundary h6 {
+  font-size: 15px;
+  color: rgba(0, 0, 0, 0.6);
+  font-weight: bold;
+}
+
+form .form-login {
+  padding: 0px;
+}
+
+.form-login h4 {
+  font-weight: bold;
+  margin-bottom: 5px;
+  margin-top: 10px;
+}
+
+form .form-login .input-container {
+  position: relative;
+  margin-bottom: 10px;
+}
+
+form .form-login .input-container i {
+  position: absolute;
+  left: 15px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #1F4E79;
+}
+
+form .form-login input {
+  width: 100%;
+  height: 45px;
+  padding: 0 15px 0 45px; /* Ajuste o padding para incluir espaço para o ícone */
+  border-radius: 20px;
+  border: 2px solid black;
+  background-color: transparent;
+  font-weight: bold;
+  box-sizing: border-box;
+}
+
+form .form-login input::placeholder {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+form .form-login input:focus {
+  outline: none;
+  border-color: #3EB489;
+}
+
+.button {
+  width: 100%;
+  padding: 5px;
+  height: 45px;
+  border-radius: 20px;
+  background-color: #1F4E79;
+  color: #fff;
+  font-weight: bold;
+  font-size: 20px;
+  text-align: center;
+  cursor: pointer;
+  margin-top: 15px;
+}
+
+.button:hover {
+  background-color: #3EB489;
+  color: #fff;
+}
+
+.form-login a {
+  font-weight: bold;
+  font-size: 15px;
+  text-decoration: none;
+  color: #1F4E79;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+
+}
+
+.form-login a:hover {
+  color: #3EB489;
+  text-decoration: underline;
+}
+
+.form-login p {
+  font-size: 15px;
+  font-weight: bold;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.form-login div {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
