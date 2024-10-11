@@ -1,5 +1,7 @@
 import './App.css';
-import Login from './pages/Login';
+import Cadastro from './pages/Cadastro';
+import AppRoutes from './routes/Routes';
+// import Login from './pages/Login';
 // import Home from './pages/Home';
 // import Sobre from './pages/Sobre';
 // import Footer from './components/Footer/Footer';
@@ -14,7 +16,9 @@ function App() {
     <div>
       {/* <Home></Home> */}
       {/* <AppRoutes></AppRoutes> */}
-      <Login></Login>
+      {/* <Login></Login> */}
+      {/* <Cadastro></Cadastro> */}
+      <AppRoutes></AppRoutes>
       {/* <Sobre></Sobre> */}
     </div>
   );

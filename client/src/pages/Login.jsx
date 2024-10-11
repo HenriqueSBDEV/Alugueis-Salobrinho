@@ -28,7 +28,7 @@ const Login = () => {
               <a href="#">Esqueci minha senha</a>
               <button className="button">Entrar</button>
               <div>
-              <p>Não tem conta?</p><a href="#">Cadastre-se aqui</a>
+              <p>Não tem conta?</p><a href="/cadastro">Cadastre-se aqui</a>
               </div>
             </div>
           </form>
