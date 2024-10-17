@@ -1,15 +1,16 @@
 .container-card {
   display: flex;
-  flex-direction: row; /* Mantido como row para o alinhamento horizontal */
-  width: 55%; /* Ajuste a largura conforme necessário */
-  height: 167px; /* A altura deve ser automática para se ajustar ao conteúdo */
+  flex-direction: row;
+  /* width: 55%;  */
+  min-width: 75%;
+  height: 167px; 
   border: 2px solid #ccc; 
-  margin-top: 150px;
-  position: relative; /* Permite posicionamento relativo dos filhos */
+  margin-top: 20px;
+  position: relative;
 }
 
 .carrosel-fotos {
-  position: relative; /* Necessário para o posicionamento absoluto dos botões */
+  position: relative;
   width: 250px;
   height: 200px;
 }

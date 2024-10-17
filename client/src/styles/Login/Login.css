@@ -1,3 +1,4 @@
+
 .container-section {
   margin: 0 auto;
   padding: 50px;
@@ -44,6 +45,12 @@ form .form-login .input-container {
   margin-bottom: 10px;
 }
 
+.input-container input{
+  color: black;
+  font-weight: bold;
+  font-size: 20px;
+}
+
 form .form-login .input-container i {
   position: absolute;
   left: 15px;
@@ -72,7 +79,7 @@ form .form-login input:focus {
   border-color: #3EB489;
 }
 
-.button {
+.buuton {
   width: 100%;
   padding: 5px;
   height: 45px;
@@ -87,7 +94,7 @@ form .form-login input:focus {
   margin-bottom: 15px;
 }
 
-.button:hover {
+.buuton:hover {
   background-color: #3EB489;
   color: #fff;
 }

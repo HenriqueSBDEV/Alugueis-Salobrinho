@@ -26,7 +26,7 @@ const Login = () => {
                 <input type="password" placeholder="Digite a sua senha" />
               </div>
               <a href="#">Esqueci minha senha</a>
-              <button className="button">Entrar</button>
+              <button className="buuton">Entrar</button>
               <div>
               <p>Não tem conta?</p><a href="/cadastro">Cadastre-se aqui</a>
               </div>

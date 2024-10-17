@@ -3,6 +3,7 @@ import Header from "../components/Header/Header";
 import Footer from "../components/Footer/Footer";
 import SearchBar from "../components/SearchBar/SearchBar";
 import AluguelCard from "../components/AluguelCard.jsx/AluguelCard";
+import BodyPrincipal from "../components/BodyPrincipal/BodyPrincipal";
 
 const Home = () =>{
   return(
@@ -10,7 +11,7 @@ const Home = () =>{
       <Header></Header>
       <div style={{display:"flex", justifyContent: "space-around"}}>
         <SearchBar></SearchBar>
-          <AluguelCard></AluguelCard>
+          <BodyPrincipal></BodyPrincipal>
           {/* <AluguelCard></AluguelCard>
           <AluguelCard></AluguelCard>
           <AluguelCard></AluguelCard>        */}

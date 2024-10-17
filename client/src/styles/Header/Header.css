@@ -35,6 +35,11 @@ h1{
 }
 
 .header-links{
+  display: flex;
+  text-align: center;
+  justify-content: end;
+  align-items: center;
+  flex-wrap: nowrap;
   padding: 20px;
   margin: 10px;
 }
@@ -53,7 +58,8 @@ a:hover{
   transition: color 0.6s ease;
 }
 
-.button{
+.header-links .button{
+  width: 25vw;
   margin-right: 30px;
   padding: 8px;
   color: #fff;
@@ -64,7 +70,7 @@ a:hover{
   border: none;
 }
 
-.button:hover{
+.header-links .button:hover{
   color: #1F4E79;
   cursor: pointer;
 }

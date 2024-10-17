@@ -1,11 +1,10 @@
 aside{
-  margin-top: 110px;
-  position: fixed;
+  position: absolute;
   padding: 20px;
   text-align: center;
   width: 25vw;
   border-right: 2px solid black;
-  height: 100vh; 
+  height: 100vw; 
   left: 0;
 }
 

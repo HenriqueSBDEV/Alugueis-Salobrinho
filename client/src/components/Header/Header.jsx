@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 const Header = ({ LinksOn = true }) => {
   return (
-    <header>
+    <header style={{ position: "fixed"}}>
       <div className={`title ${!LinksOn ? "title-center" : ""}`}>
         <h1 className="title-up">ALUGUÉIS</h1>
         <h1 className="title-down">SALOBRINHO</h1>
