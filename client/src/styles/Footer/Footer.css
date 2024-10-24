@@ -1,8 +1,9 @@
 .div-footer{
-  width: 100%;
+  z-index: 999;
   bottom: 0;
   background-color: #1F4E79;
   height: 70px;
+  justify-content: center;
 }
 
 .text-footer{

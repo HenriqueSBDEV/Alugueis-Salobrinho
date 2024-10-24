@@ -1,5 +1,6 @@
 aside{
-  position: absolute;
+  margin-top: 100px;
+  position: fixed;
   padding: 20px;
   text-align: center;
   width: 25vw;

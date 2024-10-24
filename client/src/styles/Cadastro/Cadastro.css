@@ -85,6 +85,7 @@ form .form-login input:focus {
   cursor: pointer;
   margin-top: 15px;
   margin-bottom: 15px;
+  border: none;
 }
 
 .button:hover {

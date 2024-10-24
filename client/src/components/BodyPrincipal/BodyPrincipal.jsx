@@ -15,7 +15,7 @@ const Body = () =>{
         <AluguelCard></AluguelCard>
         <AluguelCard></AluguelCard>
         <AluguelCard></AluguelCard>
-        <AluguelCard></AluguelCard> 
+        <AluguelCard></AluguelCard>
       </div>
     </div>
   );

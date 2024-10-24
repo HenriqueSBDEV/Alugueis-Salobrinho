@@ -7,7 +7,7 @@ import '@fortawesome/fontawesome-free/css/all.min.css';
 
 const Login = () => {
   return (
-    <div>
+    <div style={{display:"flex", justifyContent: "center"}}>
       <Header LinksOn={false}></Header>
       <div className="container-section">
         <div className="container-secundary">

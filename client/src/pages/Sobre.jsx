@@ -5,9 +5,11 @@ import Footer from "../components/Footer/Footer";
 import { Collapse } from 'antd';
 const { Panel } = Collapse;
 
+
+
 const Sobre = () => {
   return (
-    <div>
+    <div style={{display:"flex", justifyContent: "center"}}>
       <Header></Header>
       <div className="sobre-container">
         <h2 className="title">História do Salobrinho</h2>
@@ -73,8 +75,8 @@ const Sobre = () => {
             allowFullScreen
           ></iframe>
         </section>
+      <Footer style={{position:'static',}}></Footer>
       </div>
-      <Footer style={{position:'static'}}></Footer>
     </div>    
   );
 };

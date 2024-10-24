@@ -12,6 +12,7 @@ header {
   background-color: #1F4E79;
   width: 100vw;
   height: 110px;
+  z-index: 1000;
 }
 
 .title{

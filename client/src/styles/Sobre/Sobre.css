@@ -1,7 +1,7 @@
 .sobre-container {
-  margin-top: 150px;
-  width: 100vw;
   text-align: center;
+  margin: 0 auto;
+  margin-top: 150px;
 }
 
 .paragrafo {

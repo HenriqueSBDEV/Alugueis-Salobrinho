@@ -5,6 +5,7 @@ import Home from '../pages/Home';
 import Sobre from '../pages/Sobre'; 
 import Cadastro from '../pages/Cadastro';
 import Login from '../pages/Login';
+import InfoCard from '../pages/InfoCard';
 
 const AppRoutes = () => {
   return (
@@ -14,6 +15,7 @@ const AppRoutes = () => {
         <Route path="/sobre" element={<Sobre/>} />
         <Route path="/cadastro" element={<Cadastro/>} />
         <Route path="/login" element={<Login/>} />
+        <Route path="/infocard" element={<InfoCard/>} />
       </Routes>
     </Router>
   );

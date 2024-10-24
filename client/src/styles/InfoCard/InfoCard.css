@@ -1,0 +1,59 @@
+.container-fotos {
+  position: relative;
+  width: 70vw; 
+  margin-top: 160px;
+}
+
+
+.img-info-card {
+  width: 100%;
+  margin-right: 20px;
+  height: auto;
+}
+
+.slider-item {
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+  padding: 0 5px;
+  box-sizing: border-box;
+}
+
+.nav-buttons {
+  position: absolute;
+  width: 69vw;
+}
+
+.button-info{
+  display: flex;
+  align-items: center; /* Alinha verticalmente o ícone e o texto */
+  justify-content: center;  
+  background-color: #3EB489;
+  width: 350px;
+  height: 45px;
+  color: #fff;
+  font-size: 18px;
+  border: none;
+  border-radius: 15px;
+  font-weight: bold;
+}
+
+.button-info:hover{
+  cursor: pointer;
+  background-color: #1F4E79;
+}
+
+.whatsapp-icon {
+  margin-right: 10px; /* Espaçamento entre o ícone e o texto */
+  font-size: 20px; /* Ajuste o tamanho do ícone */
+}
+
+.infocard{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.infocard h2{
+  margin: 5px;
+}
