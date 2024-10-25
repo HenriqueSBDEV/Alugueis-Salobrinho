@@ -10,6 +10,10 @@
   position: relative;
 }
 
+.container-card:hover {
+  box-shadow: 10px 10px 20px #ccc;
+}
+
 .carrosel-fotos {
   position: relative;
   width: 250px;
@@ -17,20 +21,20 @@
 }
 
 .img-card {
-  width: 100%; /* Altera para 100% para preencher o contêiner */
-  height: 100%; /* Garante que a imagem ocupe a altura do contêiner */
-  object-fit: cover; /* Manter a proporção */
+  width: 100%; 
+  height: 100%;
+  object-fit: cover; 
 }
 
 .title-card {
   font-size: 20px;
   margin-top: 0px;
-  margin-left: 10px; /* Ajustado para um espaço melhor */
+  margin-left: 10px;
 }
 
 .subtitle-card {
   font-weight: normal;
-  margin-left: 10px; /* Ajustado para um espaço melhor */
+  margin-left: 10px;
 }
 
 .info {
@@ -41,10 +45,14 @@
   width: 100%;
 }
 
+.info:hover {
+  cursor: pointer;
+}
+
 .valor-contato {
   display: flex;
-  margin-left: 10px; /* Ajustado para um espaço melhor */
-  margin-right: 10px; /* Ajustado para um espaço melhor */
+  margin-left: 10px; 
+  margin-right: 10px;
   justify-content: space-between; 
 }
 
@@ -56,6 +64,8 @@
   color: #3EB489;
   font-size: 20px;
   font-weight: bold;
+  padding: 0px;
+  margin: 0px;
 }
 
 .contato:hover {
@@ -63,28 +73,27 @@
   color: #1F4E79;
 }
 
-/* Estilo para os botões de navegação */
 .nav-buttons {
-  position: absolute; /* Permite o posicionamento dos botões dentro do carrossel */
-  top: 50%; /* Centraliza verticalmente */
-  left: 50%; /* Centraliza horizontalmente */
-  transform: translate(-50%, -50%); /* Move os botões para o centro */
+  position: absolute;
+  top: 50%; 
+  left: 50%; 
+  transform: translate(-50%, -50%); 
   display: flex;
-  justify-content: space-between; /* Espalha os botões em lados opostos */
-  width: 100%; /* Faz os botões ocuparem toda a largura */
-  z-index: 10; /* Garante que os botões apareçam acima das imagens */
+  justify-content: space-between;
+  width: 100%;
+  z-index: 10; 
 }
 
 .nav-button {
-  padding: 10px 15px; /* Ajuste do espaçamento interno dos botões */
-  background-color: rgba(85, 100, 95, 0.8); /* Cor de fundo do botão com transparência */
-  color: white; /* Cor do texto do botão */
-  border: none; /* Remove a borda padrão */
-  border-radius: 5px; /* Bordas arredondadas */
-  cursor: pointer; /* Muda o cursor ao passar o mouse */
-  transition: background-color 0.3s; /* Transição suave para a cor de fundo */
+  padding: 10px 15px; 
+  background-color: rgba(85, 100, 95, 0.8); 
+  color: white; 
+  border: none; 
+  border-radius: 5px;
+  cursor: pointer; 
+  transition: background-color 0.3s;
 }
 
 .nav-button:hover {
-  background-color: #1F4E79; /* Cor ao passar o mouse */
+  background-color: #1F4E79;
 }

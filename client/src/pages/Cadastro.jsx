@@ -35,6 +35,16 @@ const Cadastro = () => {
                 <i className="fas fa-lock"></i> {/* Ícone de cadeado */}
                 <input type="password" placeholder="Digite a sua senha" />
               </div>
+              <div class="termos-privacidade">
+                <input style={{width:"20px", 
+                height:"20px"}} type="checkbox" class="checkbox" id="terms" />
+                <p>
+                  Concordo com os
+                  <a target="_blank" download={true} href="/docs/Termos_de_uso.pdf">termos de uso</a>
+                  e
+                  <a target="_blank" download={true} href="/docs/Politica_de_privacidade.pdf">política de privacidade</a>
+                </p>
+              </div>
               <button className="button">Cadastrar</button>
               <div>
               <p>Já tem conta?</p><a href="/login">Entre aqui</a>

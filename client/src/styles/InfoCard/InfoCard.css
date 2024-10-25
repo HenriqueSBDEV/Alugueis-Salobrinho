@@ -1,7 +1,7 @@
 .container-fotos {
   position: relative;
-  width: 70vw; 
-  margin-top: 160px;
+  width: 70vw;
+  margin-top: 140px;
 }
 
 
@@ -19,14 +19,9 @@
   box-sizing: border-box;
 }
 
-.nav-buttons {
-  position: absolute;
-  width: 69vw;
-}
-
 .button-info{
   display: flex;
-  align-items: center; /* Alinha verticalmente o ícone e o texto */
+  align-items: center;
   justify-content: center;  
   background-color: #3EB489;
   width: 350px;
@@ -36,6 +31,7 @@
   border: none;
   border-radius: 15px;
   font-weight: bold;
+  margin-top: 30px;
 }
 
 .button-info:hover{
@@ -44,16 +40,57 @@
 }
 
 .whatsapp-icon {
-  margin-right: 10px; /* Espaçamento entre o ícone e o texto */
-  font-size: 20px; /* Ajuste o tamanho do ícone */
+  margin-right: 10px;
+  font-size: 20px;
 }
 
 .infocard{
   display: flex;
   justify-content: center;
   flex-direction: column;
+  margin-top: 5px;
 }
 
 .infocard h2{
   margin: 5px;
+}
+
+.div-line1, .div-line2, .div-line3{
+  padding: 0px;
+  margin-top: 15px;
+  display: flex;
+}
+
+.div-line1 h2{
+  margin-right: 5vw;
+}
+
+.div-line2 h2{
+  margin-right: 3vw;
+}
+
+.div-line3 h2{
+  margin-right: 1vw;
+}
+
+.nav-buton {
+  padding: 10px 15px; 
+  background-color: rgba(85, 100, 95, 0.8); 
+  color: white; 
+  border: none; 
+  border-radius: 5px;
+  cursor: pointer; 
+  transition: background-color 0.3s;
+}
+
+.nav-buton:hover {
+  background-color: #1F4E79; /* Cor ao passar o mouse */
+}
+
+.container-info-card a{
+  text-decoration: none;
+}
+
+.container-info-card a:hover{
+  color: #fff;
 }

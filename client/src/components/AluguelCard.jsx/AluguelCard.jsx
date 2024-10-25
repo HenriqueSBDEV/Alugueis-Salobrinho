@@ -52,12 +52,12 @@ const AluguelCard = () => {
           </button>
         </div>
       </div>
-      <div className="info">
+      <div className="info" onClick={() => window.location.href = "/infocard"}>
         <h3 className="title-card">Salobrinho - Ilhéus - Bahia</h3>
         <h4 className="subtitle-card">Casa para alugar - 100m²</h4>
         <div className="valor-contato">
           <h3 className="valor">R$ 800.00</h3>
-          <h3 className="contato">Entrar em contato</h3>
+          <a href="https://encurtador.com.br/I9WjW" target="_blank" className="contato" rel="noreferrer">Entrar em contato</a>
         </div>
       </div>
     </div>

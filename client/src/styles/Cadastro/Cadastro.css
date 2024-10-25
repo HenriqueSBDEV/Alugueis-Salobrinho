@@ -120,3 +120,8 @@ form .form-login input:focus {
   justify-content: flex-end;
   align-items: center;
 }
+
+.termos-privacidade {
+  display: flex;
+  justify-content: left;
+}

@@ -1,14 +1,34 @@
-.div-footer{
+.div-footer {
+  position: fixed;
   z-index: 999;
   bottom: 0;
   background-color: #1F4E79;
-  height: 70px;
-  justify-content: center;
+  width: 100vw;
+  padding: 10px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-.text-footer{
+.text-footer {
   color: #fff;
-  text-align: center;
   font-weight: bold;
   font-size: 20px;
+  margin-bottom: 8px;
+}
+
+.footer-links {
+  display: flex;
+  gap: 20px;
+}
+
+.link-footer {
+  color: #fff;
+  font-weight: normal;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.link-footer:hover {
+  text-decoration: underline;
 }
