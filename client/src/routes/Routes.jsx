@@ -6,6 +6,7 @@ import Sobre from '../pages/Sobre';
 import Cadastro from '../pages/Cadastro';
 import Login from '../pages/Login';
 import InfoCard from '../pages/InfoCard';
+import HomeCadastro from '../pages/HomeCadastro';
 
 const AppRoutes = () => {
   return (
@@ -16,6 +17,7 @@ const AppRoutes = () => {
         <Route path="/cadastro" element={<Cadastro/>} />
         <Route path="/login" element={<Login/>} />
         <Route path="/infocard" element={<InfoCard/>} />
+        <Route path="/home-cadastro" element={<HomeCadastro/>} />
       </Routes>
     </Router>
   );

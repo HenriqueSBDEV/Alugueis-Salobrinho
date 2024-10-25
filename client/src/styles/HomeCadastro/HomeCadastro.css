@@ -1,0 +1,38 @@
+.container-cadastro {
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 300px;
+}
+
+.container-cadastro h2{
+  font-size: 50px;
+  color: #000;
+  font-weight: bold;
+}
+
+.container-cadastro h3{
+  font-size: 20px;
+  color: #000;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.container-cadastro button{
+  width: 50%;
+  padding: 5px;
+  height: 45px;
+  border-radius: 20px;
+  background-color: #1F4E79;
+  color: #fff;
+  font-weight: bold;
+  font-size: 20px;
+  text-align: center;
+  cursor: pointer;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  border: none;
+}
+
+.container-cadastro button:hover {
+  background-color: #3EB489;
+}
