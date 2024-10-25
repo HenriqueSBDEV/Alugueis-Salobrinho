@@ -31,4 +31,6 @@
 
 .link-footer:hover {
   text-decoration: underline;
+  color: #3EB489;
+  cursor: pointer;
 }

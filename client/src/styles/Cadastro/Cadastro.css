@@ -115,13 +115,29 @@ form .form-login input:focus {
   color: rgba(0, 0, 0, 0.8);
 }
 
-.form-login div {
+.form-login .div {
   display: flex;
   justify-content: flex-end;
   align-items: center;
 }
 
-.termos-privacidade {
+.form-login .termos-privacidade{
   display: flex;
-  justify-content: left;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.form-login .termos-privacidade p,a{
+  all: unset;
+  margin-left: 10px;
+  display: flex;
+  font-size: 15px;
+  display: flex;
+  font-weight: bold;
+}
+
+.form-login .termos-privacidade a:hover{
+  color: #3EB489;
+  text-decoration: underline;
+  cursor: pointer;
 }

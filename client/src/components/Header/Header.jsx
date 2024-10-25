@@ -12,8 +12,8 @@ const Header = ({ LinksOn = true }) => {
       {/* Exibe os links apenas se LinksOn for true */}
       {LinksOn && (
         <div className="header-links">
-          <Link to="/">HOME</Link>
-          <Link to="/sobre">SOBRE O SALOBRINHO</Link>
+          <Link className="link" to="/">HOME</Link>
+          <Link className="link" to="/sobre">SOBRE O SALOBRINHO</Link>
           <button className="button" onClick={() => window.location.href = "/login"}>ANUNCIE SEU ALUGUEL</button>
         </div>
       )}
