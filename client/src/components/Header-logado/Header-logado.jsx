@@ -3,7 +3,7 @@ import "../../styles/Header/Header.css";
 import { Link } from "react-router-dom";
 import { FaRegUserCircle } from "react-icons/fa";
 
-const HeaderLogado = () => {
+const HeaderLogado = ({ onDeleteAccount }) => { // Adicionando a prop aqui
   const [menuAberto, setMenuAberto] = useState(false);
 
   const mostrarMenu = () => setMenuAberto(true);
@@ -29,7 +29,13 @@ const HeaderLogado = () => {
           {menuAberto && (
             <div className="dropdown-menu">
               <Link to="/alterar-dados" className="dropdown-item">Alterar Dados</Link>
-              <Link to="/apagar-conta" id="apagar-conta" className="dropdown-item">Apagar Conta</Link>
+              <button 
+                className="dropdown-item" 
+                id="apagar-conta"
+                onClick={onDeleteAccount}
+              >
+                Apagar Conta
+              </button>
             </div>
           )}
         </div>

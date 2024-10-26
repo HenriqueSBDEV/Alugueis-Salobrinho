@@ -124,6 +124,21 @@ h1{
   color: #FFF;
 }
 
+#apagar-conta{
+  font-size: 15px;
+  transition: background-color 0.2s;
+  background-color: #fff;
+  border: none;
+  text-align: center;
+  justify-content: center;
+  color: #333; 
+  font-weight: bold;
+  display: block;
+  width: 85%;
+  margin-left: 10px;
+}
+
 #apagar-conta:hover{
   background-color: red;
+  color: #fff;
 }

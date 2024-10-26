@@ -56,3 +56,13 @@
  .button-dados:hover{
   background-color: #1F4E79;
  }
+
+
+
+.container-dados {
+  transition: filter 0.3s ease;
+}
+
+.desfocado {
+  filter: blur(10px);
+}
