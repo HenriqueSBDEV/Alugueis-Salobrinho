@@ -7,6 +7,7 @@ import Cadastro from '../pages/Cadastro';
 import Login from '../pages/Login';
 import InfoCard from '../pages/InfoCard';
 import HomeCadastro from '../pages/HomeCadastro';
+import AlterarDados from '../pages/AlterarDados';
 
 const AppRoutes = () => {
   return (
@@ -18,6 +19,7 @@ const AppRoutes = () => {
         <Route path="/login" element={<Login/>} />
         <Route path="/infocard" element={<InfoCard/>} />
         <Route path="/home-cadastro" element={<HomeCadastro/>} />
+        <Route path="/alterar-dados" element={<AlterarDados/>}/>
       </Routes>
     </Router>
   );

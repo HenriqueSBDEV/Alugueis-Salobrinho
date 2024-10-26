@@ -20,7 +20,6 @@ const HeaderLogado = () => {
         <Link className="link" to="/suporte">Suporte</Link>
         <Link className="link" to="/anuncios-user">Meus anúncios</Link>
 
-        {/* Ícone do Usuário */}
         <div 
           className="user-menu" 
           onMouseEnter={mostrarMenu} 
@@ -29,7 +28,7 @@ const HeaderLogado = () => {
           <FaRegUserCircle className="user-icon" />
           {menuAberto && (
             <div className="dropdown-menu">
-              <Link to="/configuracoes" className="dropdown-item">Alterar Dados</Link>
+              <Link to="/alterar-dados" className="dropdown-item">Alterar Dados</Link>
               <Link to="/apagar-conta" id="apagar-conta" className="dropdown-item">Apagar Conta</Link>
             </div>
           )}
