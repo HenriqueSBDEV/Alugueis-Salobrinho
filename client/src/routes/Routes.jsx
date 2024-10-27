@@ -8,6 +8,7 @@ import Login from '../pages/Login';
 import InfoCard from '../pages/InfoCard';
 import HomeCadastro from '../pages/HomeCadastro';
 import AlterarDados from '../pages/AlterarDados';
+import AnunciosUser from '../pages/AnunciosUser';
 
 const AppRoutes = () => {
   return (
@@ -20,6 +21,7 @@ const AppRoutes = () => {
         <Route path="/infocard" element={<InfoCard/>} />
         <Route path="/home-cadastro" element={<HomeCadastro/>} />
         <Route path="/alterar-dados" element={<AlterarDados/>}/>
+        <Route path="anuncios-user" element={<AnunciosUser/>}/>
       </Routes>
     </Router>
   );

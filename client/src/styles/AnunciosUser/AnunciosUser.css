@@ -1,0 +1,98 @@
+.container-anuncios-user{
+  width: 100%;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.anuncios-user{
+  display: flex;
+  justify-content: center;
+}
+
+.container-title {
+  width: 100%;
+  text-align: center;
+  margin-top: 150px; 
+}
+
+.title-anuncios {
+  margin-top: 150px;
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+
+.anuncio-user{
+  display: flex;
+  border: 2px solid #ccc;
+  width: 50%;
+}
+
+.image-container img{
+  width: 350px;
+}
+
+.info-container{
+  width: 100%;
+}
+
+.info-header{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.info-header h3{
+  margin-left: 30px;
+  font-size: 23px;
+}
+
+.info-header h4{
+  margin-left: 30px;
+  font-size: 20px;
+}
+
+.info-footer{
+ display: flex;
+ justify-content: space-between;
+}
+
+.info-footer h3{
+  margin-left: 30px;
+  font-size: 20px;
+}
+
+.delete-aluguel{
+  border-radius: 10px;
+  margin-right: 20px;
+  background-color: red;
+  color: #fff;
+  font-size: 15px;
+  font-weight: bold;
+  width: 100px;
+  height: 50px;
+  border: none;
+  margin-top: 20px;
+  margin-left: 15px;
+}
+
+.edit-aluguel{
+  border-radius: 10px;
+  margin-right: 20px;
+  background-color: #3EB489;
+  color: #fff;
+  font-size: 15px;
+  font-weight: bold;
+  width: 100px;
+  height: 50px;
+  border: none;
+}
+
+.delete-aluguel:hover{
+  cursor: pointer;
+}
+
+.edit-aluguel:hover{
+  cursor: pointer;
+}
