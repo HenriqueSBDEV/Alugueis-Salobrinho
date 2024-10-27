@@ -1,0 +1,82 @@
+.container-suporte{
+  text-align: center;
+}
+
+.perguntas{
+  margin-bottom: 40px;
+}
+
+.perguntas h3{
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.form{
+  border: 2px solid #ccc;
+  border-radius: 15px;
+  width: 35vw;
+  text-align: center;
+  margin: 0 auto;
+
+}
+
+.form h3{
+  margin-top: 40px;
+  font-size: 20px;
+  margin-bottom: 40px;
+}
+
+.form form{
+  text-align: center;
+}
+
+.form form input{
+  margin-bottom: 15px;
+  font-weight: bold;
+  width: 25vw;
+}
+
+.form form textarea{
+  margin-bottom: 15px;
+  font-weight: bold;
+  width: 25vw;
+  background-color: #1F4E79;
+  border: none;
+  border-radius: 10px;
+  font-weight: bold;
+  color: #fff;
+  padding: 10px;
+  resize: none;
+}
+
+.form form h4{
+  text-align: center;
+}
+
+.titulo-suport{
+  text-align: center;
+  margin-top: 150px;
+}
+
+.acordion{
+  width: 50vw;
+}
+
+.button-suport{
+  width: 25vw;
+  height: 40px;
+  margin-top: 20px;
+  background-color: #3EB489;
+  color: #fff;
+  font-weight: bold;
+  font-size: 20px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-bottom: 30px;
+}
+
+.button-suport:hover{
+  background-color: #1F4E79;
+}

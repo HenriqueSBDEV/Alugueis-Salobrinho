@@ -33,7 +33,7 @@ const AlterarDados = () => {
             <h4>Confirmar nova senha</h4>
             <input type="password" placeholder="Confirme sua nova senha" className="input-dados" />
             <br />
-            <button type="button" className="button-dados" onClick={abrirModal}>Alterar dados</button>
+            <button type="button" className="button-dados">Alterar dados</button>
           </div>
         </form>
       </div>
@@ -43,7 +43,7 @@ const AlterarDados = () => {
           onClose={fecharModal}
           onConfirm={() => {
 
-            fecharModal(); // Fecha o modal após confirmar
+            fecharModal(); 
           }}
         />
       )}

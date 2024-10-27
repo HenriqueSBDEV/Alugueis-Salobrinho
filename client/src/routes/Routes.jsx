@@ -9,6 +9,7 @@ import InfoCard from '../pages/InfoCard';
 import HomeCadastro from '../pages/HomeCadastro';
 import AlterarDados from '../pages/AlterarDados';
 import AnunciosUser from '../pages/AnunciosUser';
+import Suporte from '../pages/Suporte';
 
 const AppRoutes = () => {
   return (
@@ -21,7 +22,8 @@ const AppRoutes = () => {
         <Route path="/infocard" element={<InfoCard/>} />
         <Route path="/home-cadastro" element={<HomeCadastro/>} />
         <Route path="/alterar-dados" element={<AlterarDados/>}/>
-        <Route path="anuncios-user" element={<AnunciosUser/>}/>
+        <Route path="/anuncios-user" element={<AnunciosUser/>}/>
+        <Route path="/suporte" element={<Suporte/>}/>
       </Routes>
     </Router>
   );
