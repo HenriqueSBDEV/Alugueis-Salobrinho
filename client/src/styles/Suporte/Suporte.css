@@ -13,17 +13,18 @@
 }
 
 .form{
-  border: 2px solid #ccc;
   border-radius: 15px;
-  width: 35vw;
+  width: 25vw;
   text-align: center;
   margin: 0 auto;
-
+  background-color: rgba(31, 78, 121, 0.2);
+  padding: 40px;
+  border-radius: 20px;
 }
 
 .form h3{
   margin-top: 40px;
-  font-size: 20px;
+  font-size: 25px;
   margin-bottom: 40px;
 }
 
@@ -32,12 +33,18 @@
 }
 
 .form form input{
+  box-sizing: border-box;
   margin-bottom: 15px;
   font-weight: bold;
   width: 25vw;
+  font-size: 16px;
+  padding: 20px;
+  border: none;
+  outline: none;
 }
 
 .form form textarea{
+  box-sizing: border-box;
   margin-bottom: 15px;
   font-weight: bold;
   width: 25vw;
@@ -48,19 +55,25 @@
   color: #fff;
   padding: 10px;
   resize: none;
+  font-size: 16px;
+  outline: none;
 }
 
 .form form h4{
-  text-align: center;
+  text-align: start;
+  margin: 0;
+  margin-bottom: 8px;
 }
 
 .titulo-suport{
   text-align: center;
   margin-top: 150px;
+  font-size: 30px;
 }
 
 .acordion{
   width: 50vw;
+  font-size: 17px;
 }
 
 .button-suport{

@@ -96,3 +96,7 @@
 .edit-aluguel:hover{
   cursor: pointer;
 }
+
+.anuncios-list{
+  margin-bottom: 150px;
+}

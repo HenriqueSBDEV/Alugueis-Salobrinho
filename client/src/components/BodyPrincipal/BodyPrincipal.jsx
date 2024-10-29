@@ -7,6 +7,7 @@ const Body = () =>{
   return(
     <div className="container-body">
       <SearchBar></SearchBar>
+      <h3 className="h3">Resultados</h3>
       <div className="container-aluguel" >
         <AluguelCard></AluguelCard>
         <AluguelCard></AluguelCard>

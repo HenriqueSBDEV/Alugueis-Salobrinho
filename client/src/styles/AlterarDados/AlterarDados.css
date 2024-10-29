@@ -1,13 +1,22 @@
 .container-dados{
-  width: 20vw;
+  width: 35vw;
   margin-top: 160px;
   box-sizing: border-box;
   padding: 0;
+  background-color: rgba(31, 78, 121, 0.2);
+  padding: 20px;
+  border-radius: 20px;
 }
 
 .container-dados h2{
-  margin-bottom: 40px;
+  margin-bottom: 30px;
   text-align: center;
+}
+
+.form-dados{
+  margin-left: 7vw;
+  margin-right: 7vw;
+  margin-bottom: 20px;
 }
 
 .form-dados h4{
@@ -55,9 +64,7 @@
 
  .button-dados:hover{
   background-color: #1F4E79;
- }
-
-
+}
 
 .container-dados {
   transition: filter 0.3s ease;

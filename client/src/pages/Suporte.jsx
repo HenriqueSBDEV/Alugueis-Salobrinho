@@ -60,11 +60,11 @@ const Suporte = () =>{
             <h3>Formulario de contato</h3>
             <form action="">
               <h4>Nome</h4>
-              <input type="text"/>
+              <input type="text" placeholder="Digite seu nome"/>
               <h4>Email</h4>
-              <input type="email" name="" id="" />
+              <input type="email" name="" id="" placeholder="Digite um email"/>
               <h4>Escreva sua dúvida</h4>
-              <textarea name="" id="" rows="7"></textarea>
+              <textarea name="" id="" rows="7" placeholder="Digite sua dúvida"></textarea>
               <br />
               <button className="button-suport" type="submit">Enviar</button>
             </form>
