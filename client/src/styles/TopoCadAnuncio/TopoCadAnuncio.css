@@ -1,0 +1,21 @@
+.topo-container{
+  text-align: center;
+  margin-top: 200px;
+  display: flex;
+  width: 100vw;
+  justify-content: center;
+} 
+
+.primeiro, .segundo, .terceiro{
+  width: 70px;
+  height: auto;
+  margin-right: 60px;
+  border: 2px solid #ccc;
+  text-align: center;
+  border-radius: 100%;  
+}
+
+.primeiro{
+  background-color: #1F4E79;
+  color: #FFF;
+}

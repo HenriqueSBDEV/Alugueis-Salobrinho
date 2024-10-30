@@ -10,6 +10,7 @@ import HomeCadastro from '../pages/HomeCadastro';
 import AlterarDados from '../pages/AlterarDados';
 import AnunciosUser from '../pages/AnunciosUser';
 import Suporte from '../pages/Suporte';
+import CadAnuncio from '../pages/CadAnuncio1';
 
 const AppRoutes = () => {
   return (
@@ -24,6 +25,7 @@ const AppRoutes = () => {
         <Route path="/alterar-dados" element={<AlterarDados/>}/>
         <Route path="/anuncios-user" element={<AnunciosUser/>}/>
         <Route path="/suporte" element={<Suporte/>}/>
+        <Route path="/CadAnuncio1" element={<CadAnuncio/>}/>
       </Routes>
     </Router>
   );
