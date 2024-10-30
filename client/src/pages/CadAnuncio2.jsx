@@ -3,8 +3,16 @@ import HeaderLogado from "../components/Header-logado/Header-logado";
 import Footer from "../components/Footer/Footer";
 import TopoCadAnuncio from "../components/TopoCadAnuncio/TopoCadAnuncio";
 import "../styles/CadAnuncioUser/CadAnuncioUser.css";
+import { useNavigate } from "react-router-dom";
 
 const CadAnuncio2 = () => {
+  const navigate = useNavigate();
+  const redirectAnt = () =>{
+    navigate("/CadAnuncio1");
+  }
+  const redirectProx = () =>{
+    navigate("/CadAnuncio3");
+  }
   return (
     <div style={{ display: "flex", flexDirection: "column" }}>
       <HeaderLogado />
@@ -27,8 +35,8 @@ const CadAnuncio2 = () => {
           </div>
           <br />
           <div className="btn-container">
-            <button type="submit" className="btn-ant">Anterior</button>
-            <button type="submit" className="btn-prox">Próximo</button>
+            <button onClick={redirectAnt} type="submit" className="btn-ant">Anterior</button>
+            <button onClick={redirectProx} type="submit" className="btn-prox">Próximo</button>
           </div>
         </form>
       </div>

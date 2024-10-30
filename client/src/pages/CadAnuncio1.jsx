@@ -46,7 +46,7 @@ const CadAnuncio = () =>{
               </div>
               <input className="sem-setas" type="number" name="" id="" placeholder="Valor R$"/>
               <br/>
-              <button onClick={redirect} className="btn-prox">Proximo</button>
+              <button onClick={redirect} className="btn-prox" style={{marginTop:"20px"}}>Proximo</button>
             </form>
           </div>
       <Footer></Footer>

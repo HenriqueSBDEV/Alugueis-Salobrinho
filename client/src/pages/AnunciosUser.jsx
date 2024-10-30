@@ -8,7 +8,7 @@ const AnunciosUser = () => {
   return (
     <div style={{ display: "flex", flexDirection: "column" }}>
       <HeaderLogado/>
-      <div className="main-container">
+      <div className="container-principal">
         <h2 className="title-anuncios">Seus anuncios cadastrados</h2>
         <div className="anuncios-list">
           <AnuncioUser />

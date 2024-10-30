@@ -39,7 +39,7 @@
   font-weight: bold;
 }
 
-.form-cad1 input, textarea {
+.form-cad1 input, textarea, select {
   box-sizing: border-box;
   background-color: transparent;
   border: 2px solid #000000;
@@ -62,7 +62,7 @@
   outline: none;
 }
 
-.form-cad1 .btn-prox {
+.form-cad1 .btn-prox, .btn-ant {
   width: 70%;
   padding: 5px;
   height: 45px;
@@ -90,6 +90,32 @@ button:hover {
   justify-content: space-around;
 }
 
-.btn-container .btn-prox {
+.btn-container .btn-prox, .btn-ant {
   width: 45%;
+}
+
+.btn-ant{
+  color: #000000;
+  border: 2px solid #000000;
+  background-color: transparent;
+}
+
+.btn-ant:hover{
+  background-color: #1F4E79;
+  border: none;
+  color: #fff;
+}
+
+.form-cad1 h3{
+  margin-top: 15px;
+}
+
+.main-container3{
+  height: 250px;
+  text-align: center;
+  margin-top: 100px;
+}
+
+.btn-container3{
+  margin-top: 30px;
 }

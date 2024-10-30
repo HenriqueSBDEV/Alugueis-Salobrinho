@@ -1,5 +1,5 @@
-import React from "react"; // Importando apenas aqui
-import "../styles/Sobre/Sobre.css"; // Estilos personalizados
+import React from "react";
+import "../styles/Sobre/Sobre.css";
 import Header from "../components/Header/Header";
 import Footer from "../components/Footer/Footer";
 import { Collapse } from 'antd';
@@ -73,6 +73,7 @@ const Sobre = () => {
             title="Vídeo sobre o Salobrinho"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowFullScreen
+            style={{marginBottom:"50px"}}
           ></iframe>
         </section>
       <Footer style={{position:'static',}}></Footer>
