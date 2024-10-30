@@ -9,15 +9,16 @@
 
 .primeiro, .segundo, .terceiro{
   box-sizing: border-box;
-  width: 55px;
-  height: 55px;
+  width: 60px;
+  height: 60px;
   border: 2.5px solid #000000;
   display: flex;
   justify-content: center;
   align-items: center;
-  border-radius: 22.5px;
+  border-radius: 30px;
   font-weight: bold;
   font-size: 20px;
+  margin-bottom: 0px;
 }
 
 hr{

@@ -3,8 +3,13 @@ import HeaderLogado from "../components/Header-logado/Header-logado";
 import Footer from "../components/Footer/Footer";
 import TopoCadAnuncio from "../components/TopoCadAnuncio/TopoCadAnuncio";
 import "../styles/CadAnuncioUser/CadAnuncioUser.css";
+import { useNavigate } from "react-router-dom";
 
 const CadAnuncio = () =>{
+  const navigate = useNavigate();
+  const redirect = () =>{
+    navigate("/CadAnuncio2")
+  }
   return(
     <div style={{display:"flex", flexDirection: "column"}}>
       <HeaderLogado></HeaderLogado>
@@ -41,7 +46,7 @@ const CadAnuncio = () =>{
               </div>
               <input className="sem-setas" type="number" name="" id="" placeholder="Valor R$"/>
               <br/>
-              <button className="btn-prox">Proximo</button>
+              <button onClick={redirect} className="btn-prox">Proximo</button>
             </form>
           </div>
       <Footer></Footer>

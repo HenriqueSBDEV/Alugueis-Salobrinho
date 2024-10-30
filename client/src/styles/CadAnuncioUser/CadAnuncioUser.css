@@ -1,26 +1,45 @@
-.main-container{
-  width: 25vw;
-  margin: 0 auto;
-  margin-top: 50px;
-  padding: 20px;
-  height: 580px;
-  background-color: rgba(31, 78, 121, 0.2);
-  margin-top: 30px;
-  border-radius: 20px;
+.form-cad1 input[type="file"] {
+  display: none; 
 }
 
-.form-cad1{
+.custom-file-upload {
+  box-sizing: border-box;
+  background-color: transparent;
+  border: 2px solid #000000;
+  border-radius: 10px;
+  padding: 10px;
+  color: #000000;
+  font-size: 16px;
+  height: 40px; 
+  width: 70%;   
+  font-weight: bold;
+  margin-top: 13px;
+  cursor: pointer;
   text-align: center;
 }
 
-.form-cad1 h2{
+.main-container {
+  width: 25vw;
+  margin: 0 auto;
+  margin-top: 25px;
+  padding: 20px;
+  height: 580px;
+  background-color: rgba(31, 78, 121, 0.2);
+  border-radius: 20px;
+}
+
+.form-cad1 {
+  text-align: center;
+}
+
+.form-cad1 h2 {
   margin-top: 0px;
   margin-bottom: 10px;
   font-size: 25px;
   font-weight: bold;
 }
 
-.form-cad1 input{
+.form-cad1 input, textarea {
   box-sizing: border-box;
   background-color: transparent;
   border: 2px solid #000000;
@@ -34,22 +53,16 @@
   margin-top: 13px;
 }
 
-.form-cad1 select{
-  box-sizing: border-box;
-  width: 70%;
-  background-color: transparent;
-  border: 2px solid #000000;
-  border-radius: 10px;
-  padding: 10px;
-  color: #000000;
-  font-size: 16px;
-  height: 40px;
-  width: 70%;
-  margin-top: 13px;
-  font-weight: bold;
+.form-cad1 textarea {
+  height: 70px;
+  resize: none;
 }
 
-.form-cad1 .btn-prox{
+.form-cad1 input:focus, textarea:focus {
+  outline: none;
+}
+
+.form-cad1 .btn-prox {
   width: 70%;
   padding: 5px;
   height: 45px;
@@ -61,27 +74,22 @@
   text-align: center;
   cursor: pointer;
   border: 0;
-  margin-top: 20px;
+  margin-top: 0px;
 }
 
-.form-cad1 .btn-prox:hover{
+.form-cad1 .btn-prox:hover {
   background-color: #3EB489;
 }
 
-.form-cad1 h3{
-  font-size: 15px;
-  margin-top: 20px;
-  font-weight: bold;
-}
-
-button:hover{
+button:hover {
   cursor: pointer;
 }
 
-.main-container .num-quartos .button-Search{
-  width: 10%;
-  background-color: transparent;
-  font-size: 16px;
-  font-weight: bold;
-  border: 2px solid #000000;
+.btn-container{
+  display: flex;
+  justify-content: space-around;
+}
+
+.btn-container .btn-prox {
+  width: 45%;
 }
