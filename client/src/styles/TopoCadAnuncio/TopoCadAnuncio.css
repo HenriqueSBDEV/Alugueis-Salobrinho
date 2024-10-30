@@ -1,21 +1,37 @@
 .topo-container{
   text-align: center;
-  margin-top: 200px;
+  margin-top: 130px;
   display: flex;
   width: 100vw;
   justify-content: center;
+  margin-bottom: 0px;
 } 
 
 .primeiro, .segundo, .terceiro{
-  width: 70px;
-  height: auto;
-  margin-right: 60px;
-  border: 2px solid #ccc;
-  text-align: center;
-  border-radius: 100%;  
+  box-sizing: border-box;
+  width: 55px;
+  height: 55px;
+  border: 2.5px solid #000000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 22.5px;
+  font-weight: bold;
+  font-size: 20px;
 }
 
-.primeiro{
+hr{
+  display: flex;
+  width: 10vw;
+  margin: 0;
+  margin-top: 30px;
+  border: 0;
+  border-top: 2px solid #ccc;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.ativo{
   background-color: #1F4E79;
   color: #FFF;
 }
