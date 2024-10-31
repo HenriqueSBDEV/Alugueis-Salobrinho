@@ -13,6 +13,8 @@ import Suporte from '../pages/Suporte';
 import CadAnuncio from '../pages/CadAnuncio1';
 import CadAnuncio2 from '../pages/CadAnuncio2';
 import CadAnuncio3 from '../pages/CadAnuncio3';
+import HomeModerador from '../pages/HomeModerador';
+import GerenciamentoUser from '../pages/GerenciamentoUser';
 
 const AppRoutes = () => {
   return (
@@ -30,6 +32,8 @@ const AppRoutes = () => {
         <Route path="/CadAnuncio1" element={<CadAnuncio/>}/>
         <Route path="/CadAnuncio2" element={<CadAnuncio2/>}/>
         <Route path="/CadAnuncio3" element={<CadAnuncio3/>}/>
+        <Route path="/home-moderador" element={<HomeModerador/>} />
+        <Route path="/gerenciamento-user" element={<GerenciamentoUser/>} />
       </Routes>
     </Router>
   );

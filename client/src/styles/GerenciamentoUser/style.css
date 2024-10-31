@@ -1,0 +1,43 @@
+.container-user{
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 150px;
+  margin-bottom: 150px;
+}
+
+.container-user h2{
+  font-size: 25px;
+  margin-bottom: 40px;
+  color: #000;
+  font-weight: bold;
+}
+
+table{
+  margin: 0 auto;
+  margin-top: 50px;
+  border-collapse: collapse;
+  width: 50vw;
+  border: 1px solid #ccc;
+  box-shadow: 0 0 10px #ccc;
+}
+
+th, td{
+  border: 1px solid #ccc;
+  padding: 8px;
+  text-align: center;
+}
+
+thead th{
+  background-color: #ccc;
+  font-weight: bold;
+  border: 1px solid #aca9a9;
+}
+
+.apagar-user{
+  background-color: red;
+  border: none;
+  padding: 8px;
+  color: white;
+  font-weight:bold;
+
+}
