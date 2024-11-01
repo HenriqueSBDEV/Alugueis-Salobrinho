@@ -3,10 +3,10 @@ import "../../styles/AluguelCard/AluguelCard.css";
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick"; 
-import { FaChevronLeft, FaChevronRight } from 'react-icons/fa'; // Importando os ícones
+import { FaChevronLeft, FaChevronRight } from 'react-icons/fa';
 import casa from "../../image/casa.jpg";
 
-const AluguelPendente = ({prop}) => {
+const ImovelAtivo = () => {
 
   const sliderRef = useRef(null);
 
@@ -63,8 +63,7 @@ const AluguelPendente = ({prop}) => {
         <div className="valor-contato">
           <h3 className="valor">R$ 800.00</h3>
           <div className="action-aluguel">
-
-            <button className="aprovar">APROVAR</button>
+            <button className="suspender">SUSPENDER</button>
             <button className="deletar">DELETAR</button>
           </div>
         </div>
@@ -73,4 +72,4 @@ const AluguelPendente = ({prop}) => {
   );
 }
 
-export default AluguelPendente;
+export default ImovelAtivo;

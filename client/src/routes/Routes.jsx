@@ -16,6 +16,7 @@ import CadAnuncio3 from '../pages/CadAnuncio3';
 import HomeModerador from '../pages/HomeModerador';
 import GerenciamentoUser from '../pages/GerenciamentoUser';
 import ImoveisPendentes from '../pages/ImoveisPendentes';
+import ImoveisAtivos from '../pages/ImoveisAtivos.';
 
 const AppRoutes = () => {
   return (
@@ -36,6 +37,7 @@ const AppRoutes = () => {
         <Route path="/home-moderador" element={<HomeModerador/>} />
         <Route path="/gerenciamento-user" element={<GerenciamentoUser/>} />
         <Route path="/imoveis-pendentes" element={<ImoveisPendentes/>} />
+        <Route path="/imoveis-ativos" element={<ImoveisAtivos/>}/>
       </Routes>
     </Router>
   );

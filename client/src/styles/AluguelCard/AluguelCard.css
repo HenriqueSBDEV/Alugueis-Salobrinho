@@ -103,7 +103,7 @@
   margin-top: 10px;
 }
 
-.aprovar, .deletar{
+.aprovar, .deletar, .suspender{
   margin-left: 10px;
   color: white;
   font-weight: bold;
@@ -124,4 +124,8 @@
 
 .info-moderador:hover{
   cursor: auto;
+}
+
+.suspender{
+  background-color: rgb(161, 149, 134);
 }
