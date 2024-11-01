@@ -11,8 +11,8 @@ const HeaderModerador = () => {
       <div className="header-links">
         <Link className="link" to="/home-moderador">Dashboard</Link>
         <Link className="link" to="/gerenciamento-user">Gerenciamento de Usuários</Link>
-        <Link className="link" to="/anuncios-user">Imóveis Ativos</Link>
-        <Link className="link" to="/anuncios-user">Imóveis Pendentes</Link>
+        <Link className="link" to="/anuncios-ativos">Imóveis Ativos</Link>
+        <Link className="link" to="/imoveis-pendentes">Imóveis Pendentes</Link>
       </div>
     </header>
   );

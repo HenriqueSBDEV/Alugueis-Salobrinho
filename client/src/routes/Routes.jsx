@@ -15,6 +15,7 @@ import CadAnuncio2 from '../pages/CadAnuncio2';
 import CadAnuncio3 from '../pages/CadAnuncio3';
 import HomeModerador from '../pages/HomeModerador';
 import GerenciamentoUser from '../pages/GerenciamentoUser';
+import ImoveisPendentes from '../pages/ImoveisPendentes';
 
 const AppRoutes = () => {
   return (
@@ -34,6 +35,7 @@ const AppRoutes = () => {
         <Route path="/CadAnuncio3" element={<CadAnuncio3/>}/>
         <Route path="/home-moderador" element={<HomeModerador/>} />
         <Route path="/gerenciamento-user" element={<GerenciamentoUser/>} />
+        <Route path="/imoveis-pendentes" element={<ImoveisPendentes/>} />
       </Routes>
     </Router>
   );

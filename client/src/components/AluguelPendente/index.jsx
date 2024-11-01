@@ -6,7 +6,8 @@ import Slider from "react-slick";
 import { FaChevronLeft, FaChevronRight } from 'react-icons/fa'; // Importando os ícones
 import casa from "../../image/casa.jpg";
 
-const AluguelCard = () => {
+const AluguelPendente = () => {
+
   const sliderRef = useRef(null);
 
   const settings = {
@@ -17,15 +18,15 @@ const AluguelCard = () => {
     slidesToScroll: 1,
     autoplay: false,
     autoplaySpeed: 2000,
-    arrows: false, 
+    arrows: false,
   };
-  
+
   const next = () => {
-    sliderRef.current.slickNext(); // Avança para a próxima imagem
+    sliderRef.current.slickNext(); 
   };
 
   const previous = () => {
-    sliderRef.current.slickPrev(); // Volta para a imagem anterior
+    sliderRef.current.slickPrev();
   };
 
   return (
@@ -44,23 +45,31 @@ const AluguelCard = () => {
         </Slider>
         <div className="nav-buttons">
           <button onClick={previous} className="nav-button">
-            <FaChevronLeft /> {/* Ícone para "Anterior" */}
+            <FaChevronLeft />
           </button>
           <button onClick={next} className="nav-button">
-            <FaChevronRight /> {/* Ícone para "Próximo" */}
+            <FaChevronRight />
           </button>
         </div>
       </div>
-      <div className="info" onClick={() => window.location.href = "/infocard"}>
+      <div className="info info-moderador" style={{}}>
         <h3 className="title-card">Salobrinho - Ilhéus - Bahia</h3>
-        <h4 className="subtitle-card">Casa para alugar - 100m²</h4>
+        <h4 className="subtitle-card" style={{all:"unset", marginLeft:"10px", marginTop:"10px"}}>Casa para alugar - 100m²</h4>
+        <div className="info-casa" style={{display:"flex", gap:"40px",marginTop:"10px" ,marginLeft:"10px"}}>
+          <h4 style={{all:"unset"}}>2 quartos</h4>
+          <h4 style={{all:"unset"}}>2 banheiros</h4>
+          <h4 style={{all:"unset"}}>Com mobilia</h4>
+        </div>
         <div className="valor-contato">
           <h3 className="valor">R$ 800.00</h3>
-          <a href="https://encurtador.com.br/I9WjW" target="_blank" className="contato" rel="noreferrer">Entrar em contato</a>
+          <div className="action-aluguel">
+            <button className="aprovar">APROVAR</button>
+            <button className="deletar">DELETAR</button>
+          </div>
         </div>
       </div>
     </div>
   );
 }
 
-export default AluguelCard;
+export default AluguelPendente;

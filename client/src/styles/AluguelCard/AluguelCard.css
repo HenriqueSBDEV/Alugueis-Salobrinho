@@ -1,8 +1,6 @@
 .container-card {
   display: flex;
   flex-direction: row;
-  /* width: 55%;  */
-  /* max-width: 100%; */
   width: 50vw;
   height: 167px; 
   border: 2px solid #ccc; 
@@ -96,4 +94,34 @@
 
 .nav-button:hover {
   background-color: #1F4E79;
+}
+
+
+/* ALUGUEL CARD PAINEL */
+
+.action-aluguel{
+  margin-top: 10px;
+}
+
+.aprovar, .deletar{
+  margin-left: 10px;
+  color: white;
+  font-weight: bold;
+  font-size: 15px;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  border: none;
+}
+
+.aprovar{
+  background-color: #1F4E79;
+}
+
+.deletar{
+  background-color: red;
+}
+
+.info-moderador:hover{
+  cursor: auto;
 }
