@@ -1,4 +1,4 @@
-aside{
+aside {
   margin-top: 100px;
   position: fixed;
   padding: 20px;
@@ -9,55 +9,59 @@ aside{
   left: 0;
 }
 
-h2{
+h2 {
   margin-top: 30px;
 }
 
-h3{
+h3 {
   font-size: 15px;
   font-weight: bold;
-  margin: 0px;
-  margin-top: 30px;
-  margin-bottom: 5px;
+  margin: 30px 0 5px; /* Unificar margens */
 }
 
-input{
+input {
   padding: 5px;
   width: 50%;
   height: 25px;
   border-radius: 10px;
-  border: 1px solid black;
-  background-color: #1F4E79;
-  color: #fff;
+  border: 2px solid black;
+  background-color: transparent;
+  color: #000000;
+  font-weight: bold;
 }
 
-aside select{
+aside select {
   padding: 5px;
-  background-color: #1F4E79;
+  background-color: transparent;
   width: 53%;
   height: 35px;
   border-radius: 10px;
-  border: 1px solid black;  
-  color: #fff;
+  border: 2px solid black;  
+  color: #000;
+  font-weight: bold;
 }
 
-.input-min-max{
+.input-min-max {
   width: 20%;
   margin: 20px;
 }
 
-.min-max{
+.min-max {
   display: flex;
   justify-content: center;
 }
 
-.num-quartos{
+.min-max input {
+  margin: 0 5px; /* Espaçamento entre inputs */
+}
+
+.num-quartos {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.button-Search{
+.button-Search {
   padding: 5px;
   width: 40px;
   height: 40px;
@@ -66,20 +70,30 @@ aside select{
   color: black;
   background-color: #fff;
   margin-right: 15px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Sombra */
 }
 
-button:focus{
+.button-Search:hover {
+  background-color: #D3D3D3; /* Cor ao passar o mouse */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Sombra ao passar o mouse */
+}
+
+.button-Search:active {
+  background-color: #B0B0B0; /* Cor ao clicar */
+}
+
+button:focus {
   background-color: #1F4E79;
   color: #fff;
 }
 
-label{
+label {
   align-items: center;
   margin: 5px 0;
   padding: 0px;
 }
 
-#order-label{
+#order-label {
   width: 100%;
   display: flex;
   justify-content: center;
@@ -87,27 +101,28 @@ label{
   margin-bottom: 30px;
 }
 
-.input-radio{
+.input-radio {
   height: 20px;
 }
 
-p{
+p {
   margin: 0px;
   margin-right: 14px;
   padding: 0px;
 }
 
-.buscar{
+.buscar {
   margin-top: 25px;
   padding: 10px;
   height: 50px;
-  background-color: #3EB489;
+  background-color: #1F4E79;
   color: #fff;
   font-weight: bold;
   font-size: 20px;
+  border: none;
 }
 
-.buscar:hover{
+.buscar:hover {
   cursor: pointer;
-  background-color: #1F4E79;
+  background-color: #3EB489;
 }

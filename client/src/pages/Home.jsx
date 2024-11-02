@@ -12,9 +12,6 @@ const Home = () =>{
       <div style={{display:"flex", justifyContent: "space-around"}}>
         <SearchBar></SearchBar>
           <BodyPrincipal></BodyPrincipal>
-          {/* <AluguelCard></AluguelCard>
-          <AluguelCard></AluguelCard>
-          <AluguelCard></AluguelCard>        */}
         <Footer></Footer>
       </div>
     </div>

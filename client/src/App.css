@@ -40,3 +40,14 @@
 a:hover{
   cursor: pointer;
 }
+
+/* Remove as setas no Chrome, Safari e Edge */
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+/* Remove as setas no Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
