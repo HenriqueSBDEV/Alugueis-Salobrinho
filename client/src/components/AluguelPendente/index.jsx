@@ -63,7 +63,6 @@ const AluguelPendente = ({prop}) => {
         <div className="valor-contato">
           <h3 className="valor">R$ 800.00</h3>
           <div className="action-aluguel">
-
             <button className="aprovar">APROVAR</button>
             <button className="deletar">DELETAR</button>
           </div>

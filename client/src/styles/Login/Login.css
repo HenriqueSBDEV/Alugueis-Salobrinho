@@ -1,9 +1,7 @@
-
 .container-section {
   margin: 0 auto;
   padding: 50px;
   background-color: rgba(31, 78, 121, 0.2);
-  height: 60vh;
   width: 35vw;
   border-radius: 30px;
   box-shadow: 0 0 10px #ccc;
@@ -11,7 +9,7 @@
   justify-content: center; 
   align-items: center; 
   margin-top: 150px;
-
+  height: 55vh;
 }
 
 .container-secundary {
@@ -63,7 +61,7 @@ form .form-login .input-container i {
 form .form-login input {
   width: 100%;
   height: 45px;
-  padding: 0 15px 0 45px; /* Ajuste o padding para incluir espaço para o ícone */
+  padding: 0 15px 0 45px;
   border-radius: 20px;
   border: 2px solid black;
   background-color: transparent;
@@ -127,4 +125,14 @@ form .form-login input:focus {
   display: flex;
   justify-content: flex-end;
   align-items: center;
+}
+
+@media screen and (max-width:1000px) {
+  .container-section{
+    width: 70vw;
+    height: 50vh;
+  }
+  .container-secundary{
+    width: 100%;
+  }
 }

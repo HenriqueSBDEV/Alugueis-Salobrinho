@@ -3,7 +3,7 @@ import "../../styles/AluguelCard/AluguelCard.css";
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick"; 
-import { FaChevronLeft, FaChevronRight } from 'react-icons/fa'; // Importando os ícones
+import { FaChevronLeft, FaChevronRight } from 'react-icons/fa'; 
 import casa from "../../image/casa.jpg";
 
 const AluguelCard = () => {
@@ -21,11 +21,11 @@ const AluguelCard = () => {
   };
   
   const next = () => {
-    sliderRef.current.slickNext(); // Avança para a próxima imagem
+    sliderRef.current.slickNext(); 
   };
 
   const previous = () => {
-    sliderRef.current.slickPrev(); // Volta para a imagem anterior
+    sliderRef.current.slickPrev();
   };
 
   return (
@@ -44,10 +44,10 @@ const AluguelCard = () => {
         </Slider>
         <div className="nav-buttons">
           <button onClick={previous} className="nav-button">
-            <FaChevronLeft /> {/* Ícone para "Anterior" */}
+            <FaChevronLeft />
           </button>
           <button onClick={next} className="nav-button">
-            <FaChevronRight /> {/* Ícone para "Próximo" */}
+            <FaChevronRight /> 
           </button>
         </div>
       </div>

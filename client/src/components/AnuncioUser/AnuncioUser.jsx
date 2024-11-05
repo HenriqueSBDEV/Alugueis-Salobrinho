@@ -10,7 +10,7 @@ const AnuncioUser = () => {
         <div className="image-container">
           <img src={casa} alt="" />
         </div>
-        <div className="info-container">
+        <div className="info-containe">
           <div className="info-header">
             <h3>Salobrinho - Rua do Ouro</h3>
             <h4>Casa para alugar</h4>

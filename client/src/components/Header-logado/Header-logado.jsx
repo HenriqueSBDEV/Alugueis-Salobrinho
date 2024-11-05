@@ -3,7 +3,7 @@ import "../../styles/Header/Header.css";
 import { Link } from "react-router-dom";
 import { FaRegUserCircle } from "react-icons/fa";
 
-const HeaderLogado = ({ onDeleteAccount }) => { // Adicionando a prop aqui
+const HeaderLogado = ({ onDeleteAccount }) => {
   const [menuAberto, setMenuAberto] = useState(false);
 
   const mostrarMenu = () => setMenuAberto(true);
