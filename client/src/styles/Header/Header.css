@@ -145,9 +145,6 @@ h1{
 
 /* xx */
 @media screen and (max-width:700px){
-  header{
-    height: 80px;
-  }
   h1{
     font-size: 25px;
     margin-top: 0px;

@@ -36,7 +36,7 @@ form .form-login {
 .form-login h4 {
   font-weight: bold;
   margin-bottom: 5px;
-  margin-top: 10px;
+  margin-top: 0px;
 }
 
 form .form-login .input-container {
@@ -140,4 +140,13 @@ form .form-login input:focus {
   color: #3EB489;
   text-decoration: underline;
   cursor: pointer;
+}
+
+
+@media screen and (max-width: 1000px) {
+  .pai .container-section{
+    margin-top: 130px;
+    width: 60vw;
+    height: 60vh;
+  }
 }

@@ -129,10 +129,20 @@ form .form-login input:focus {
 
 @media screen and (max-width:1000px) {
   .container-section{
-    width: 70vw;
+    width: 60vw;
     height: 50vh;
   }
   .container-secundary{
     width: 100%;
   }
+  .input-container input{
+    font-size: 15px;
+  }
+  .container-secundary h3{
+    text-align: center;
+  }
+  .container-secundary h6{
+    text-align: center;
+  }
 }
+

@@ -7,7 +7,7 @@ import '@fortawesome/fontawesome-free/css/all.min.css';
 
 const Cadastro = () => {
   return (
-    <div style={{display:"flex", justifyContent: "center"}}>
+    <div className="pai" style={{display:"flex", justifyContent: "center"}}>
       <Header LinksOn={false}></Header>
       <div className="container-section">
         <div className="container-secundary">

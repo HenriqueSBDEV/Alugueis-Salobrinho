@@ -34,3 +34,15 @@
   color: #3EB489;
   cursor: pointer;
 }
+
+@media screen and (max-width: 600px) {
+  .text-footer {
+    font-size: 16px;
+    text-align: center;
+  }
+  
+  .link-footer {
+    font-size: 12px;
+  }
+  
+}
